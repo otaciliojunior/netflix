@@ -1,0 +1,136 @@
+/* Estilos globais */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilos do cabeçalho */
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .logo {
+    width: 120px;
+  }
+  
+  .menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+  }
+  
+  .menu-item {
+    margin-left: 20px;
+    color: #000000;
+    font-weight: bold;
+    cursor: pointer;
+    top: 10px;
+    
+  }
+  
+  /* Estilos da seção Hero */
+  .hero-section {
+    background-size: cover;
+    background-position: center;
+    padding: 80px 20px;
+    color: #000000;
+    text-align: center;
+
+  }
+  
+  .hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    background-color: #e50914;
+    color: #fff;
+    border-radius: 4px;
+  }
+  
+  .cta-button:hover {
+    background-color: #000000;
+    transition: 0.7s;
+  }
+  
+  /* Estilos da seção em destaque */
+  .featured-section {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .featured-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .featured-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+  }
+  
+  .featured-item {
+    width: 190px;
+    height: 190px;
+    overflow: hidden; /* Para esconder a parte da imagem fora do recorte */
+    clip: rect(0px, 317px, 450px, 0px); /* Define as coordenadas do recorte */
+    padding-left: 20px;
+    padding-top: 4px;
+    border-radius: 10px;
+  }
+  
+  .featured-item img {
+    width: 100%;
+    border-radius: 4px;
+  }
+  
+  /* Estilos do rodapé */
+  footer {
+    background-color: #000000;
+    color: #999;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .hero-content h1 {
+      font-size: 32px;
+    }
+  
+    .hero-content p {
+      font-size: 18px;
+    }
+  
+    .cta-button {
+      font-size: 20px;
+      padding: 10px 20px;
+    }
+  }  
+
+  
+  
+  
+
+  
